@@ -69,7 +69,7 @@ header {
     border-bottom: 3px solid var(--color-primary-4);
 }
 
-.bnt-default {
+.btn-default {
     border: none;
     display: flex;
     align-items: center;
@@ -84,7 +84,7 @@ header {
     transition: background-color .3s ease;
 }
 
-.bnt-defaut:hover {
+.btn-default:hover {
     background-color: var(--color-primary-3);
     color: var(--color-primary-5);
 }
