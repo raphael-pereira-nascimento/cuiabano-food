@@ -43,7 +43,6 @@ header {
 #navbar {
     width: 100%;
     display: flex;
-    background-color: chartreuse;
     align-items: center;
     justify-content: space-between;
 }
@@ -51,4 +50,141 @@ header {
 #nav_logo {
     font-size: 24px;
     color: var(--color-primary-5);
+}
+
+#nav_list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #1D1D1DAD;
+    font-weight: 600;
+}
+
+.nav-item.active a {
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid var(--color-primary-4);
+}
+
+.bnt-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-5);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: var(--color-primary-2);
+    transition: background-color .3s ease;
+}
+
+.bnt-defaut:hover {
+    background-color: var(--color-primary-3);
+    color: var(--color-primary-5);
+}
+/* Home */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 91px);
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 4rem;
+    color: var(--color-neutral-1);
+}
+
+#cta .title span {
+    color: var(--color-primary-4);
+}
+
+#cta .description {
+    font-size: 1.2rem;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: var(--color-neutral-1);
+}
+
+#cta_buttons .btn {
+    text-decoration: none;
+    color: var(--color-primary-2);
+}
+
+#cta_buttons .btn:hover {
+    background-color: var(--color-primary-3);
+    color: var(--color-neutral-1);
+}
+
+#phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+}
+
+#phone_button button {
+    box-shadow: none
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: var(--color-neutral-0);
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-neutral-1);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px var(--color-primary-4);
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner img {
+    height: auto;
+    width: 600px;
+    border-radius: 30px;
 }
