@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Cuiabano Food</title>
 </head>
 <body>
@@ -15,67 +15,68 @@
             <!-- Logo -->
             <a href="#">
                 <i class="fa-solid fa-utensils" id="nav_logo">
-                    Cuiabano food
+                    Cuiabano Food
                 </i>
             </a>
-            <!-- Menu de navegação-->
+            <!-- Menu de navegação -->
             <ul id="nav_list">
-                <Li class="nav-item">
+                <li class="nav-item active">
                     <a href="#">Início</a>
-                </Li>
-                <Li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a href="#">Cardápio</a>
-                </Li>
-                <Li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a href="#">Avaliações</a>
-                </Li>
+                </li>
             </ul>
             <button class="btn-default">
                 Peça aqui
             </button>
         </nav>
     </header>
+    <!-- Conteúdo principal da página web -->
     <main id="content">
-        <!-- Conteúdo principal da página web -->
+        <!-- Home -->
         <section id="home">
             <div id="cta">
-                <h1 class="title">o sabor <span>pantanal</span> em cada tempero</h1>
+                <h1 class="title">O sabor do <span>Pantanal</span> em cada tempero</h1>
                 <p class="description">
-                    uma explosão de cuiabá no seu paladar!
+                    Uma explosão de Cuiabá no seu paladar!
                 </p>
                 <div id="cta_buttons">
                     <a href="#" class="btn btn-default">
                         Ver Cardápio
                     </a>
-                    <a href="tel=+696969696969" id="phone_button">
+                    <a href="tel:+5599999999999" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
                         </button>
-                        (99) 8987-09784
+                        (99) 9.9999-9999
                     </a>
                 </div>
                 <!-- Redes Sociais -->
                 <div class="social-media-buttons">
-                    <a
-                        href="#"
+                    <a 
+                        href="https://api.whatsapp.com/send?phone=5599999999999&text=Quero%20fazer%20um%20pedido!"
                         target="_blank"
                         rel="noopener no-referrer"
                     >
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
-                    <a
-                        href="#"
-                        target="_blank"
+                    <a 
+                        href="#" 
+                        target="_blank" 
                         rel="noopener no-referrer"
                     >
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a
-                        href="#"
-                        target="_blank"
+                    <a 
+                        href="#" 
+                        target="_blank" 
                         rel="noopener no-referrer"
                     >
-                    <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-facebook"></i>
                     </a>
                 </div>
             </div>
@@ -85,7 +86,7 @@
             </div>
         </section>
         <!-- Menu -->
-        <section id="Menu">
+        <section id="menu">
             <h2 class="section-title">Cardápio</h2>
             <h3 class="section-subtitle">Nossos pratos especiais</h3>
             <div id="dishes">
@@ -94,16 +95,16 @@
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <img
-                        src="images/carne-assada.png"
-                        alt="Imagem de carne assada"
-                        class="dish-image"
+                    <img 
+                        src="images/carne-assada.png" 
+                        alt="Imagem de carne assada" 
+                        class="dish-image" 
                         height="250px"
                     >
-                    <h3 class="dish-tittle">Carne Assada</h3>
+                    <h3 class="dish-title">Carne Assada</h3>
                     <p class="dish-description">
-                        Clássico da culinária cuiabana, nossa carne assada é feita com cortes selecionados, marinada com ervas e especiarias da casa e assada lentamente até ficar macia e cheia de sabor. Servida com arroz, farofa e salada fresca, é aquela refeição que alimenta o corpo e aquece o coração. Ideal para quem valoriza comida boa de verdade!
-                        <br>
+                        Carne bovina de primeira, assada na perfeição para garantir suculência e sabor em cada garfada. Temperada com ervas
+                        aromáticas e finalizada na grelha para uma crosta dourada irresistível.
                     </p>
                     <div class="dish-rate">
                         <i class="fa-solid fa-star"></i>
@@ -125,16 +126,11 @@
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <img
-                        src="images/costela.png"
-                        alt="Imagem de costela assada"
-                        class="dish-image"
-                        height="250px"
-                    >
-                    <h3 class="dish-tittle">Carne Assada</h3>
+                    <img src="images/costela.png" alt="Imagem de costela assada" class="dish-image" height="250px">
+                    <h3 class="dish-title">Costela Assada</h3>
                     <p class="dish-description">
-                        Maciez que desmancha na boca! Costela bovina assada lentamente por horas, temperada com ervas frescas, alho e um toque de pimenta-do-reino. Finalizada com um leve toque de defumação, acompanha farofa crocante e vinagrete artesanal. Sabor de comida de verdade, feito com alma.
-                        <br>
+                        Costela Assada – Costela selecionada, temperada com um blend exclusivo e assada lentamente até ficar suculenta e com
+                        crosta dourada. Uma homenagem ao churrasco tradicional, feita com dedicação e sabor irresistível.
                     </p>
                     <div class="dish-rate">
                         <i class="fa-solid fa-star"></i>
@@ -156,16 +152,11 @@
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <img
-                        src="images/caldo-piranha.png"
-                        alt="Imagem de caldo de piranha"
-                        class="dish-image"
-                        height="250px"
-                    >
-                    <h3 class="dish-tittle">Caldo de piranha</h3>
+                    <img src="images/caldo-piranha.png" alt="Imagem de carne assada" class="dish-image" height="250px">
+                    <h3 class="dish-title">Caldo de Piranha</h3>
                     <p class="dish-description">
-                        Um clássico da culinária amazônica! Preparado com postas de piranha fresca, cozidas lentamente com alho, cebola, pimentão e cheiro-verde. Rico em sabor e tradição, esse caldo é encorpado, levemente picante e ideal para abrir o apetite ou revigorar as energias. Servido bem quente, com toque de limão e pimenta à parte.
-                        <br>
+                        Caldo de Piranha – Especialidade cuiabana, feita com piranha e caldo artesanal de leite de coco, mandioca e temperos
+                        regionais. Uma sopa cremosa e cheia de tradição.
                     </p>
                     <div class="dish-rate">
                         <i class="fa-solid fa-star"></i>
@@ -187,16 +178,12 @@
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <img
-                        src="images/feijoada.png"
-                        alt="Imagem de feijoada pantaneira"
-                        class="dish-image"
-                        height="250px"
-                    >
-                    <h3 class="dish-tittle">Feijoada pantaneira</h3>
+                    <img src="images/feijoada.png" alt="Imagem de carne assada" class="dish-image" height="250px">
+                    <h3 class="dish-title">Feijoada Pantaneira</h3>
                     <p class="dish-description">
-                        Um prato cheio de história e tradição do coração do Pantanal! Feijão preto encorpado, cozido com carnes típicas da região — como charque, costela, linguiça caseira e lombo suíno — tudo bem temperado com ervas frescas e especiarias pantaneiras. Acompanha arroz branco, farofa de banana, couve na manteiga e laranja fresca. Uma explosão de sabores rústicos e autênticos da culinária pantaneira.
-                        <br>
+                        Feijoada Pantaneira – Feijão preto cozido com carnes selecionadas como charque, paio e linguiça artesanal, em uma
+                        receita que homenageia a tradição do interior do Brasil. Sabor intenso e autêntico, preparado com carinho e respeito à
+                        cultura regional.
                     </p>
                     <div class="dish-rate">
                         <i class="fa-solid fa-star"></i>
@@ -217,22 +204,22 @@
         </section>
         <!-- Testimonials -->
         <section id="testimonials">
-            <img
-            src="images/ambiente-restaurante.png"
-            alt="imagem do ambiente do restaurante Cuiabano Food"
-            id="testimonial_dish"
+            <img 
+                src="images/ambiente-restaurante.png" 
+                alt="Imagem do ambiente do restaurante Cuiabano Food"
+                id="testimonial_dish"
             >
             <div id="testimonials_content">
                 <h2 class="section-title">Depoimentos</h2>
                 <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
                 <!-- Feedbacks -->
-                <div id="Feedbacks">
+                <div id="feedbacks">
                     <!-- Feedback 1 -->
                     <div class="feedback">
-                        <img
-                        src="images/avatar.jpg"
-                        alt="Imagem de uma cliente mulher"
-                        class="feedback-avatar"
+                        <img 
+                            src="images/avatar.jpg" 
+                            alt="Imagem de uma cliente mulher"
+                            class="feedback-avatar"
                         >
                         <div class="feedback-content">
                             <p>
@@ -245,17 +232,14 @@
                                     <i class="fa-solid fa-star"></i>
                                 </span>
                             </p>
-                            <P>
-                                Simplesmente apaixonada pelo Cuiabano Food! Atendimento acolhedor, comida com aquele tempero caseiro que lembra almoço na casa da vó. Pedi a feijoada pantaneira e estava incrível: bem servida, sabor marcante e acompanhamentos no capricho. Sem dúvida, virei cliente fiel. Parabéns a toda equipe!
-                            </P>
-                        </div> <!-- Fim do feedback 1 -->
-                        <!-- Feedback 2 -->
+                            <p>
+                                Uma experiência incrível! O Cuiabano Food me surpreendeu com a autenticidade dos sabores. Provei a Feijoada Pantaneira e cada ingrediente mostrava o cuidado no preparo — o feijão bem cozido, as carnes de primeira e aquela farofa de dendê que não dá pra esquecer. Parabéns pela dedicação à nossa cultura!
+                            </p>
+                        </div>
+                    </div> <!-- Fim do feedback 1 -->
+                    <!-- Feedback 2 -->
                     <div class="feedback">
-                        <img
-                        src="images/avatar2.jpg"
-                        alt="Imagem de um cliente homem"
-                        class="feedback-avatar"
-                        >
+                        <img src="images/avatar2.jpg" alt="Imagem de um cliente homem" class="feedback-avatar">
                         <div class="feedback-content">
                             <p>
                                 <strong>Marcos Vinícius</strong>
@@ -267,11 +251,13 @@
                                     <i class="fa-solid fa-star"></i>
                                 </span>
                             </p>
-                            <P>
-                                O Cuiabano Food superou todas as minhas expectativas! Pratos bem servidos, sabor autêntico e aquele toque regional que faz toda a diferença. Experimentei o caldo de piranha e a costela assada — simplesmente sensacionais! Atendimento rápido e ambiente acolhedor. Recomendo de olhos fechados!
-                            </P>
-                        </div> <!-- Fim do feedback 2 -->
-                                        </div>
+                            <p>
+                                Almocei no Cuiabano Food no final de semana e foi uma ótima descoberta! Provei a costela assada e estava simplesmente
+                                desmanchando — suculenta e com um tempero impecável. O caldo de piranha como entrada foi uma surpresa maravilhosa, bem
+                                diferente do que já havia experimentado. Já estou marcando minha próxima visita!
+                            </p>
+                        </div>
+                    </div> <!-- Fim do feedback 2 -->
                 </div>
             </div>
         </section>
@@ -280,30 +266,29 @@
         <img src="images/ondulacao.svg" alt="Imagem ondulada de cor marrom">
         <div id="footer_items">
             <span id="copyright">
-                Copyright &copy;2025 - Todos os direitos reservados - Cuiabano Food
+                Copyright &copy; 2025 - Todos os direitos reservados - Cuiabano Food
             </span>
             <!-- Redes Sociais -->
             <div class="social-media-buttons">
-                <a
-                    href="https://api.whatsapp.com/send?phone=5599999999999&text=Quero%20fazer%20um%20pedido!"
-                    target="_blank"
+                <a 
+                    href="https://api.whatsapp.com/send?phone=5599999999999&text=Quero%20fazer%20um%20pedido!" target="_blank" 
                     rel="noopener no-referrer"
                 >
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
-                <a
-                    href="#"
-                    target="_blank"
+                <a 
+                    href="#" 
+                    target="_blank" 
                     rel="noopener no-referrer"
                 >
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a
-                    href="#"
-                    target="_blank"
+                <a 
+                    href="#" 
+                    target="_blank" 
                     rel="noopener no-referrer"
                 >
-                <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook"></i>
                 </a>
             </div>
         </div>
