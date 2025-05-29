@@ -11,17 +11,18 @@
     --color-neutral-1: #1A1A1A;
 }
 
-/*Reset do CSS padrão do navegador */
+/* Reset do CSS padrão do navegador */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', Arial, Helvetica sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: var(--color-primary-1);
 }
@@ -88,6 +89,7 @@ header {
     background-color: var(--color-primary-3);
     color: var(--color-primary-5);
 }
+
 /* Home */
 #home {
     display: flex;
@@ -146,7 +148,6 @@ header {
     font-weight: 500;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-
 }
 
 #phone_button button {
@@ -155,7 +156,7 @@ header {
 
 .social-media-buttons {
     display: flex;
-    gap: 18px;
+    gap: 18px
 }
 
 .social-media-buttons a {
@@ -236,7 +237,7 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 1.563rem;
-    color: var(--color-neutral-0);
+    color: var(--color-primary-1);
     width: 70px;
     height: 70px;
     right: -10px;
@@ -249,7 +250,7 @@ header {
     border-radius: 20px;
 }
 
-.dish-tittle {
+.dish-title {
     color: var(--color-primary-4);
 }
 
@@ -268,7 +269,7 @@ header {
     gap: 20px;
 }
 
-/* testimonials */
+/* testimonials  */
 #testimonials {
     min-width: calc(100vh - 91px);
     display: flex;
