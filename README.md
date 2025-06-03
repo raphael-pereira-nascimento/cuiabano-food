@@ -43,7 +43,7 @@ Acessar Site Cuiabano Food **[Clique aqui](https://raphael-pereira-nascimento.gi
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" width="80px" height="80px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" width="80px" height="80px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-plain-wordmark.svg" width="80px" height="80px" />
-  <img src=".github/scroll-reavel.jpgg" width="200px" height="100px"/>
+  <img src=".github/scrollreavel.jpg" width="200px" height="100px"/>
 </div>  
  
 <br>
