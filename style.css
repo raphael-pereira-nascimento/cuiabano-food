@@ -455,3 +455,26 @@ footer img {
     color: var(--color-neutral-1);
     font-weight: 500;
 }
+
+@media screen and (max-width: 600px){
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #banner {
+        position: absolute;
+        left: 60%;
+        transform: translate(-50%);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #banner {
+        position: absolute;
+        left: 60%;
+        transform: translate(-50%);
+    }
+}
