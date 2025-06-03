@@ -229,6 +229,31 @@ header {
     border-radius: 30px;
 }
 
+@media screen and (max-width: 1170px){
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #home,
+    #banner,
+    #banner img {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #phone_button buton {
+        display: none;
+    }
+}
+
 /* Menu */
 #menu {
     display: flex;
