@@ -40,6 +40,12 @@ $(document).ready(function() {
         duration: 2000,
         distance: '20%'
     });
+
+    ScrollReveal().reveal('#banner', {
+        origin: 'right',
+        duration: 2000,
+        distance: '20%'
+    });
   
     ScrollReveal().reveal('.dish', {
         origin: 'left',
