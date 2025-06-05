@@ -17,8 +17,8 @@
 
 <div align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000" alt="License">
-  <img src="https://img.shields.io/github/forks/raphael-nascimento/cuiabano-food?label=forks&message=MIT&color=15C3D6&labelColor=000000" alt="Forks">
-  <img src="https://img.shields.io/github/stars/raphael-nascimento/cuiabano-food?label=stars&message=MIT&color=15C3D6&labelColor=000000" alt="Stars">
+  <img src="https://img.shields.io/github/forks/raphael-pereira-nascimento/cuiabano-food?label=forks&message=MIT&color=15C3D6&labelColor=000000" alt="Forks">
+  <img src="https://img.shields.io/github/stars/raphael-pereira-nascimento/cuiabano-food?label=stars&message=MIT&color=15C3D6&labelColor=000000" alt="Stars">
 </div>
 
 <br>
